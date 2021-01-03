@@ -6,6 +6,7 @@
 
 ### 기능
 
+>* #### 검색으로 Youtube 조회.
 ------------------- app.jsx -----------------------
 ```js
 searchVideo = (value) =>{
@@ -42,8 +43,8 @@ handleClick=()=>{
         }
     }
 ```
->* #### 검색으로 Youtube 조회.
 ___
+>* #### 조회한 Youtube 영상 시청.
 
 ```js
 playVideo = (videoId)=>{      //검색결과로 얻은 videoId를 통해 Iframe생성.
@@ -67,8 +68,10 @@ playVideo = (videoId)=>{      //검색결과로 얻은 videoId를 통해 Iframe�
     }
   }
 ```
->* #### 조회한 Youtube 영상 시청.
+
 ___
+
+>* 눈 보호를 위한 라이트 모드 변환 기능
 ```js
 constructor(props){
         super(props);
